@@ -1,0 +1,12 @@
+---
+# set the "message of the day" / login banner
+
+- name: Set MOTD banner
+  template: >
+    content="{{ role_motd_message }}"
+    dest=/etc/motd 
+    owner=root 
+    group=root 
+    mode=0644
+  tags: 
+    - motd
