@@ -2,7 +2,7 @@
 # set the "message of the day" / login banner
 
 - name: Set MOTD banner
-  template: >
+  copy: >
     content="{{ role_motd_message }}"
     dest=/etc/motd 
     owner=root 
