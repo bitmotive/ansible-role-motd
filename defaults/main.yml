@@ -2,4 +2,4 @@
 # defaults file for hostnames role
 
 # Overide this variable to set the message that will be display on login.
-role_motd_message: 'Property of ACME Corporation. Unauthorized use prohibited.'
+role_motd_message: "Property of ACME Corporation. Unauthorized use prohibited.\n"
